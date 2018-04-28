@@ -12,7 +12,7 @@ class ArticleController extends Controller
 
         array_set($array, 'names.editor', 'Taylor1');
         var_dump($array);die;
-        echo 'test123';
+        echo 'test';
     }
     public function test(){
         echo 'test';
